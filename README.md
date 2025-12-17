@@ -12,8 +12,8 @@
 | :--- | :--- | :---: | :--- |
 | **RATM (Autonomous)** | TII Racing 自动驾驶数据 | ✅ **可用** | 包含 v3.0.0 的 3 个分卷。脚本会自动下载、合并为 zip 并清理分卷。 |
 | **RATM (Piloted)** | TII Racing 人工驾驶数据 | ✅ **可用** | 包含 v3.0.0 的 7 个分卷。脚本会自动下载、合并为 zip 并清理分卷。 |
-| **UZH FPV** | Zurich 室内前视数据 | ⏸️ **暂停** | 链接有效，但在代码中默认被注释掉 (Commented out)。 |
-| **GRASP** | UPenn Fast Flight | ❌ **失效** | 原始下载链接无法访问或服务器已关闭。 |
+| **UZH FPV** | Zurich 室内前视数据 | ✅ **可用** | 链接有效。 |
+| **GRASP** | UPenn Fast Flight | ⏸️ **暂停** | 原始下载链接无法访问或服务器已关闭。 |
 | **Blackbird** | MIT Torrent 种子 | ❌ **失效** | 原始种子链接无法访问。 |
 
 ## 🛠️ 安装环境 (Installation)

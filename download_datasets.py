@@ -26,10 +26,38 @@ DATASET_URLS = {
         "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/piloted_zipchunk07"
     ],
 
-    # # --- UZH FPV (Zurich) ---
-    # "uzh-fpv": [
-    #     "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_forward_3_snapdragon_with_gt.zip"
-    # ],
+    # --- UZH FPV (Indoor Forward Facing) ---
+    # 包含图像、IMU 和 Ground Truth
+    "uzh_indoor_forward": [
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_forward_3_snapdragon_with_gt.zip",
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_forward_5_snapdragon_with_gt.zip",
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_forward_6_snapdragon_with_gt.zip",
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_forward_7_snapdragon_with_gt.zip",
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_forward_9_snapdragon_with_gt.zip",
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_forward_10_snapdragon_with_gt.zip"
+    ],
+
+    # --- UZH FPV (Indoor 45 Degree Facing) ---
+    "uzh_indoor_45": [
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_45_2_snapdragon_with_gt.zip",
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_45_4_snapdragon_with_gt.zip",
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_45_9_snapdragon_with_gt.zip",
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_45_12_snapdragon_with_gt.zip",
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_45_13_snapdragon_with_gt.zip",
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/indoor_45_14_snapdragon_with_gt.zip"
+    ],
+
+    # --- UZH FPV (Outdoor Forward Facing) ---
+    "uzh_outdoor_forward": [
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_1_snapdragon_with_gt.zip",
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_3_snapdragon_with_gt.zip",
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_5_snapdragon_with_gt.zip"
+    ],
+
+    # --- UZH FPV (Outdoor 45 Degree Facing) ---
+    "uzh_outdoor_45": [
+        "http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_45_1_snapdragon_with_gt.zip"
+    ]
     #
     # # --- GRASP (UPenn)失效 ---
     # "grasp": [
